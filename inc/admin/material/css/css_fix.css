@@ -1,0 +1,36 @@
+#wp-admin-bar-WPML_ALS .ab-item.ab-empty-item{
+  padding: 14px 10px !important;
+}
+
+
+@media screen and (min-width: 600px) {
+  #adminmenuback {
+    display: none!important;
+  }
+  #wpadminbar{
+    transition: padding-left 0.3s;
+    box-sizing: border-box;
+  }
+
+  #wpcontent,
+  #wpfooter {
+    transition: padding-left 0.3s;
+  }
+
+
+  .wp-responsive-open #wpadminbar{
+    padding-left: 220px;
+
+  }
+
+
+  .wp-responsive-open #wpcontent,
+  .wp-responsive-open #wpfooter {
+    padding-left: 240px;
+
+  }
+}
+
+@media screen and (max-width: 600px){
+
+}
